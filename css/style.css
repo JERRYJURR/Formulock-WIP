@@ -1,0 +1,157 @@
+body{
+margin: 0;
+padding:0;
+width: 100%;
+}
+h1 {
+font-family:"Avenir", sans-serif;
+font-weight:700;
+font-size: 46px;
+text-align: left;
+    text-transform: uppercase;
+    color: #4A4A4A;
+margin: 0;
+padding: 0;
+    z-index: 0;
+}
+h2 {
+font-family:"Futura", sans-serif;
+font-weight: 700;
+font-size: 40px;
+text-align: left;
+    text-transform: uppercase;
+    color: #4A4A4A;
+margin: 0;
+padding: 0;
+    z-index: 0;
+}
+h3 {
+font-family: "Futura", sans-serif;
+font-weight: 700;
+font-size: 20px;
+text-align: left;
+    text-transform: uppercase;
+    color: #4A4A4A;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+    z-index: 0;
+}
+h4 {
+font-family: "Futura", serif;
+font-weight: 700;
+font-size: 14px;
+color: #4A4A4A;
+text-align: left;
+    text-transform: uppercase;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+    z-index: 0;
+}
+p {
+/* Lorem ipsum dolor si: */
+font-family: AmericanTypewriter;
+font-size: 18px;
+color: #4A4A4A;
+line-height: 30px;
+display: block;
+position: relative;
+    z-index: 0;
+}
+
+.center{margin: 0 auto;}
+.content{ margin: 0 auto; width: 960px;}
+.clear {clear:both; }
+
+.header {
+    width: 100%;
+    background: black;
+    height: 120px;
+    position: fixed;
+    z-index: 1;
+    display: none;
+}
+
+.open {
+    width: 100%;
+    background: black;
+    height: 120px;
+    position: fixed;
+    z-index: 1;
+}
+
+#slide1, #slide2, #slide3, #slide4, #slide5{width:100%;}
+#slide1{
+    background:red;
+    height:300px;
+    margin:0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    z-index: -2;
+}
+#slide2{
+    background:white;
+    height:300px;
+    margin:0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    z-index: -2;
+}
+#slide3{
+    background:white;
+    height:300px;
+    margin:0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    z-index: -2;
+}
+#slide4{
+    background:white;
+    height:300px;
+    margin:0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    z-index: -2;
+}
+#slide5{
+    background:red;
+    height:300px;
+    margin:0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    z-index: -2;
+}
+
+    
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    top: 250px; /* Stay at the top */
+    right: 30px;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+.sidenav a {
+    font-family: "Futura", serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 0;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+
