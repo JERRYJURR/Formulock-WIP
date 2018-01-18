@@ -15,7 +15,9 @@
     <!--install animate on scroll-->
     <link rel="stylesheet" href="aos/dist/aos.css" />
     <script src="aos/dist/aos.js"></script>
-
+    
+    <!-- INSTALL FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Source+Sans+Pro:400,700,900" rel="stylesheet">
 </head>
     
     <!--END OF HEAD -->
@@ -47,21 +49,24 @@
         
         
     <!-- ABOUT SECTION -->
+    
+    
     <section id="about">
+        <div id="about-img-container" class="parallax-container">
+        <div id="about-img" class="parallax"><img src="./img/about-img.jpg">
     <div id="slide1">
     <div class="content" data-aos="fade">
-        <div id="about-img"></div>
-        <h4>About</h4>
-        <h2>Introducing Formulock</h2>
-        <p>Formulock Security Systems Ltd. is a Canadian startup company founded by engineering students at the University of British Columbia in Vancouver.</p>
-        <p>With our patent pending design, the Formulock team hopes to revolutionize the rapidly growing smart-lock market.</p>
+        <h1-wht>Introducing Formulock</h1-wht>
+        <p-wht>Formulock Security Systems Ltd. is a Canadian startup company founded by engineering students at the University of British Columbia in Vancouver. With our patent pending design, the Formulock team hopes to revolutionize the rapidly growing smart-lock market.</p-wht>
+        </div>
     </div>
-    </div>
+        </div>
+        </div>
     </section>
     
     <!--WHY SECTION -->
     <section id="why">
-    <div id="slide2">
+    <div id="slide2" class='slide'>
     <div class="content" data-aos="fade" data-aos-offset="250">
         <div id="why-img"></div>
         <h4>Why Formulock?</h4>
@@ -74,11 +79,11 @@
     
     <!--HOW IT WORKS SECTION-->
     <section id="how">
-    <div id="slide3">
+    <div id="slide3" class='slide'>
     <div class="content" data-aos="fade" data-aos-offset="250">
         <div id="how-img"></div>
         <h4>How it Works</h4>
-        <h2>The Patent Pending Formulock System</h2>
+        <h2>Programmable and Discreet</h2>
         <p>The Formulock system uses a patent pending design which allows for distinct methods of operation between when the system is powered and when it is not. Switching between these two modes is automatic and seamless, and both modes utilize the same keyway.</p>
         
         <p>When powered, the Formulock can accept any key the user has programmed it to accept, all while looking and feeling indistinguishable from a standard lock. If power to the system is lost, the Formulock retains functionality as a traditional deadbolt lock. The system can be programmed via an available touchscreen, smartphone app, USB connection, or SD card.</p>
@@ -90,7 +95,7 @@
     
     <!--OTHER BENEFITS SECTION-->
     <section id="other">
-    <div id="slide4">
+    <div id="slide4" class='slide'>
     <div class="content" data-aos="fade" data-aos-offset="250">
         <div id="other-img"></div>
         <h4>Other Benefits</h4>
@@ -104,17 +109,31 @@
     
     <!-- CONTACT US -->
     <section id="contact">
-    <div id="slide5">
+    <div id="slide5" class='slide'>
     <div class="content" data-aos="fade" data-aos-offset="250">
         <div id="contact-img"></div>
-        <h4>Contact us</h4>
+        <h4-wht>Contact us</h4-wht>
     </div>
     </div>
     </section>
     
+    <!-- FOOTER -->
+    <section id="footer">
+    <div id="footer" class="footer">
+    <div class="content">
+        <h4-wht>© 2017 by Formulock Smartlocks LTD. <br>
+            Website designed by Jerry Kou</h4-wht>
+    </div>    
+    </div>
+    </section>
+    
     <!-- USE JQUERY-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src ="js/basic.js"></script>
+    
+    <!-- USE MATERIALIZE -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     
 </body>
     
